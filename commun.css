@@ -1,0 +1,407 @@
+@font-face 
+{
+    font-family: 'Great Vibes';
+    src: url("Polices/GreatVibes/greatvibes-regular-webfont.woff") format("woff"),
+    url("Polices/GreatVibes/greatvibes-regular-webfont.woff2") format("woff2");
+}
+
+@font-face 
+{
+font-family: 'Poppins';
+src: url("Polices/Poppins/poppins-light-webfont.woff") format("woff"),
+url("Polices/Poppins/poppins-light-webfont.woff2") format("woff2");
+}
+
+body {
+    font-family: "Poppins";
+    background-color: #F2F2F2;
+    color: #422F01;
+}
+
+header
+{
+    text-align: center;
+    font-family:'Great Vibes';
+}
+
+h1
+{
+    text-align: center;
+    font-family:"Great Vibes";
+    font-size: 4em;
+    margin: 1.5em 0 1.5em 0;
+}
+
+figure,img,figcaption
+{
+    padding: 1em;    
+}
+
+.logo {
+    width: 10em;
+    padding: 0;
+    margin: 1em;
+}
+
+.fondlogo {
+    background-color:#422F01;
+}
+
+
+nav {
+    background-color: #B3D962;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+nav > a {
+    display: block;
+    border: 1px solid #422F01;
+    font-size: 1.5em;
+    color:#422F01;
+    flex-basis: 50%;
+}
+
+div > nav {
+    border-bottom-right-radius: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+nav > div > li {
+    background-color: #B3D962;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+li > a {
+    font-size: larger;
+    font-weight: bold;
+    display: block;
+    border-bottom: 1px solid #422F01;
+    font-size: 1.5em;
+    color:#422F01;
+    flex-basis: 50%;
+}
+
+textarea {
+    border: 10px solid #000;
+    width: 90%;
+    height:25em;
+    border-radius:10px;
+}
+
+.usine {
+    display:inline-flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+iframe + figcaption {
+    display: block;
+    font-size: larger;
+    background-color: #422F01;
+    color:#EBD8C8;
+    width:50%;
+    height: auto;
+    padding:10px;
+    text-align: center;
+    align-self: center;
+    margin-top:5px;
+    border-radius: 10px;
+}
+
+.contact > article {
+    display:inline-block;
+}
+
+.contact {
+    padding : 0 5% 5% 5%;
+}
+
+.contact img {
+    width:90px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+/*Index*/
+
+.index{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.index article{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index > article p {
+    display: block;
+    border-left: 8px solid #F28095;
+    border-right: 8px solid #F28095;
+    width: 35%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.index section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.index section article{
+    display: flex;
+    flex-direction: column;
+    width: 323px;
+    background-color: #422f01;
+    border-radius: 10px;
+    align-items: center;
+    margin: 53px auto;
+}
+
+.index section article p{
+    text-align:center;
+    color:#EBD8C8;
+}
+
+.index section article a{
+    width:55%;
+    color:#422f01;
+    background-color:#EBD8C8;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 9px;
+}
+
+.index .carousel-control-next-icon, .index .carousel-control-prev-icon {
+    background-color:#422f01;
+    border-radius: 10px;
+}
+
+.index .d-block{
+    margin: auto;
+    border-radius: 35px;
+}
+
+.index h2 {
+    font-family:'Great Vibes';
+    font-size: 3em;
+    text-align: center;
+    margin: 1.5em 0 1em 0;
+}
+
+/*coupe indiv*/
+
+.coupeIndiv {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding:0 4% 0 4%;
+}
+
+.coupeIndiv article {
+    background-color: #F28095;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    padding: 2%;
+}
+
+.coupeIndiv article section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.coupeIndiv article + article {
+    flex-direction: row-reverse;
+}
+
+.coupeIndiv article p {
+    display: flex;
+    text-align: justify;
+    padding: 0 5%;
+}
+
+.coupeIndiv article figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coupeIndiv article img {
+    display: flex;
+    border-radius: 30px;
+}
+
+.coupeIndiv h2 {
+    font-family:'Great Vibes';
+    font-size: 3em;
+}
+
+/*Particuliers*/
+
+.particuliers figure
+{
+    font-family: Poppins;
+    color: #422F01;
+    display: block;
+}
+
+.particuliers figure,.particuliers figcaption
+{
+    text-align: center;
+}
+
+.particuliers > section
+{
+    display: flex;
+    justify-content: center;
+}
+
+.particuliers div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/*FOOTER*/
+
+
+footer
+{
+    display: inline-flex;
+    background-color: #422F01;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+}
+
+footer figcaption 
+{
+    display: flex;
+    color:#EBD8C8;
+    font-size: large;
+    text-align: right;
+    align-self: center;
+}
+
+footer p
+{
+    display: block;
+    border-radius: 7px;
+    background-color: #EBD8C8;
+    color: #422F01;
+    padding : 0 25px;
+}
+
+footer > figure
+{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+footer > a:link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 575px) {
+    footer img {
+        width: 90px;
+    }
+    nav {
+        display: none;
+    }
+    .usine {
+        display:flex;
+        flex-direction: row;
+    }
+
+    iframe {
+        width:75%;
+    }
+    iframe + figcaption {
+        margin-left: 10px;
+    }
+    .contact img {
+        width:15%;
+    }
+
+    .index .d-block { 
+        width: 70%;
+    }
+
+    .index section article {
+         width: 230px;
+    }
+
+    .index > article p { 
+        width: 80%;
+    }
+
+    .index section article h5{
+        font-size:100%;
+    }
+
+    .coupeIndiv article img {
+        width: 20em;
+    }
+
+    .coupeIndiv article {
+        font-size: 55%;
+    }
+
+    .coupeIndiv article p {
+        font-size: 1.1em;
+    }
+    
+    .particuliers > section {
+        display:inline-flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+ 
+    .particuliers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .container {
+        display: none;
+    }
+
+}

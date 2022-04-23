@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" href="commun.css"/>
+        <link rel="icon" type="image/png" href="Images/icone/icone_glace_VRJ.png"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="fondlogo">
+                <a href="index.html"><img class="logo" src="Images/LogoKohFrais.png" title = "Logo marque Koh Frais" alt = "Koh frais"/></a>
+            </div>
+            <nav>
+                <a href="meilleuresVentes.html">Meilleures Ventes</a>
+                <a href="particuliers.html">Particuliers</a>
+                <a href="professionnels.html">Professionnels</a>
+                <a href="contact.html">Nous contacter</a>
+            </nav>
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                        <ul class="navbar-nav ms-auto text-center">
+                            <li>
+                                <a class="nav-link" href="meilleuresVentes.html">Meilleures Ventes</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="particuliers.html">Particuliers</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="professionnels.html">Professionnels</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="contact.html">Nous contacter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="index">
+            <article class="Presentation">
+                <br>
+                <h1>Qui sommes nous ?</h1>
+                <p>Dans les années 80 nous avons fondé un commerce appelé <em>La Crème de La Crème</em> vendant toutes sortes de produits à base de crème. Plus le temps s'écoulait plus nous nous sommes rendus compte que la majorité des clients achetaient des glaces. C'est ainsi que notre commerce changea de nom pour celui que l'on connaît aujourd'hui : <em>Koh Frais</em>. Aujourd'hui nous possédons une gamme de produits pour les particuliers et pour les professionnels.</p>    
+            </article>
+            <h2>Nos meilleures ventes :</h2>
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="Images/PHOTOS/tailles_carousel/Fruits_framboises_carousel.jpg" class="d-block w-72" alt="Framboises" title="Framboises">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Images/PHOTOS/tailles_carousel/Fruits_myrtilles_carousel.jpg" class="d-block w-72" alt="Myrtilles" title="Myrtilles">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Images/PHOTOS/tailles_carousel/Bac_glace2_carousel.jpg" class="d-block w-72" alt="Bac à glaces" title="Bac à glaces">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <section>
+                <article>
+                    <p>Vous êtes un particulier et vous souhaitez connaître nos différentes gammes de produits à la destination des particuliers.</p>
+                    <a href="particuliers.html"><h5>Je suis un Particulier</h5></a>
+                </article>
+                <article>
+                    <p>Vous êtes un professionnel et vous voulez savoir quels sont les meilleurs produits par rapport à votre activité économique.</p>
+                    <a href="professionnels.html"><h5>Je suis un Professionnel</h5></a>
+                </article>
+                <br>
+            </section>
+        </main>
+        <footer>
+            <figure>
+                <img src="Images/IconeGlace.png" title = "Logo glace Koh Frais" alt = "Koh frais"/>
+                <figcaption>Koh Frais ©</figcaption>
+            </figure>
+            <figure>
+                <img src="Images/resaux/insta.png" title = "Logo Instagram" alt = "Instagram"/>
+            </figure>
+            <figure>
+                <img src="Images/resaux/twitter.png" title = "Logo twitter" alt = "Twitter"/>
+            </figure>
+            <a href="contact.html"><p>Contact</p></a>
+        </footer>
+    </body>
+</html>
